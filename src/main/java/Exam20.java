@@ -14,7 +14,7 @@ public class Exam20 {
 
         System.out.println("name : " + map.get("name"));
         System.out.println("email : " + map.get("email"));
-        System.out.println("dept : " + map.get("데이터분석과"));
+        System.out.println("dept : " + map.get("dept"));
 
         System.out.println("---------------------------------------");
 
