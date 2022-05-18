@@ -68,6 +68,13 @@ public class ListmapExam {
 
 
         }
+        list.forEach(rMap -> {
+            System.out.println("name : " + rMap.get("name"));
+            System.out.println("email : " + rMap.get("email"));
+            System.out.println("addr : " + rMap.get("addr"));
+            System.out.println("dept : " + rMap.get("dept"));
+
+        });
 
     }
 }
